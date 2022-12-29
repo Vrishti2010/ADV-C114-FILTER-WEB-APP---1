@@ -1,0 +1,18 @@
+h3{ font-size: 25px !important; }
+
+button:hover{
+    background-color: red !important;
+}
+
+canvas{
+
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sample{
+    from{box-shadow: 10px 10px 60px #cc0099;}
+    to{box-shadow: 10px 10px 60px yellow;}  
+}
+
